@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Real Estate Menu</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+    }
+    .navbar {
+      background: #fff;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+    }
+    .nav-links a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .dropdown-menu {
+      display: none;
+      background: #fff;
+      border-top: 1px solid #ccc;
+      padding: 20px;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      top: 100%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .navbar:hover .dropdown-menu {
+      display: flex;
+    }
+    .menu-column {
+      flex: 1;
+      padding: 0 20px;
+    }
+    .menu-headline {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .menu-column ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menu-column li {
+      margin-bottom: 8px;
+    }
+    .menu-column li a {
+      text-decoration: none;
+      color: #333;
+    }
+    .dropdown-menu {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="nav-links">
+      <a href="#">Buy</a>
+      <a href="#">Sell</a>
+      <a href="#">Agents</a>
+    </div>
+    <a href="#">Sign In</a>
+
+    <div class="dropdown-menu">
+      <div class="menu-column">
+        <div class="menu-headline">Homes for Sale</div>
+        <ul>
+          <li><a href="#">California</a></li>
+          <li><a href="#">Texas</a></li>
+          <li><a href="#">Florida</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <div class="menu-headline">Home Buying Resources</div>
+        <ul>
+          <li><a href="#">How to buy a house?</a></li>
+          <li><a href="#">When to buy a house?</a></li>
+          <li><a href="#">Should I buy a home?</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <div class="menu-headline">Tools</div>
+        <ul>
+          <li><a href="#">Affordability Calculator</a></li>
+          <li><a href="#">Mortgage Calculator</a></li>
+          <li><a href="#">Home Sale Calculator</a></li>
+          <li><a href="#">Builder Matching</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <div class="menu-headline">Our Offer</div>
+        <ul>
+          <li><a href="#">Cash Plus</a></li>
+          <li><a href="#">Home Insights</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <div class="menu-headline">Home Selling Resources</div>
+        <ul>
+          <li><a href="#">Sell my home for cash</a></li>
+          <li><a href="#">How to sell your house?</a></li>
+          <li><a href="#">How long does it take?</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <div class="menu-headline">For Agents</div>
+        <ul>
+          <li><a href="#">Key Agent FAQ</a></li>
+          <li><a href="#">Become a Key Agent</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+      <div class="menu-column">
+        <div class="menu-headline">Agent Resources</div>
+        <ul>
+          <li><a href="#">How to become an agent</a></li>
+          <li><a href="#">Agent salary info</a></li>
+          <li><a href="#">Get licensed</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
